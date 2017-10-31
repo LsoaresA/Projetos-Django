@@ -1,0 +1,91 @@
+{% load static %}
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Um template feito para testar.">
+        <title>LsoaresA - Primeiro site em HTML!</title>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+        <link rel="shortcut icon" href="{% static 'media/favicon.ico' %}" />
+        <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+        <link rel="stylesheet" href="{% static 'css/layouts/side-menu.css' %}">
+        <!-- Fonte do Google -->
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    </head>
+    <body>
+        <div id="layout">
+            <a href="#menu" id="menuLink" class="menu-link">
+                <span></span>
+            </a>
+            <div id="menu">
+                <div class="pure-menu">
+                    {% if user.is_authenticated %}
+                        <a class="pure-menu-heading" href="{% url 'home:index' %}">Website</a>
+                    {% else %}
+                        <a class="pure-menu-heading" href="entrar:login">Website</a>
+                    {% endif %}
+                    {% if user.is_authenticated %}
+                        <a class="pure-menu-heading" target="self" href="/admin/">{{ user }}</a>
+                    {% else %}
+                        <a class="pure-menu-heading" href="entrar:login">{{ user }}</a>
+                    {% endif %}
+                    <ul class="pure-menu-list">
+                        {% if user.is_authenticated %}
+                            <li class="pure-menu-item"><a href="{% url 'home:index' %}" class="pure-menu-link">Início</a></li>
+                        {% else %}
+                            <li class="pure-menu-item"><a href="{% url 'entrar:login' %}" class="pure-menu-link">Início</a></li>
+                        {% endif %}
+                        {% if user.is_authenticated == '' %}
+                            <li class="pure-menu-item"><a href="cadastro:cadastro" class="pure-menu-link">Cadastro</a></li>
+                        {% else %}
+                            {% if not user.is_authenticated %}
+                                <li class="pure-menu-item"><a href="{% url 'cadastro:cadastro' %}" class="pure-menu-link">Cadastro</a></li>
+                            {% endif %}
+                        {% endif %}
+                        {% if user.is_authenticated %}
+                            <li class="pure-menu-item"><a href="/sair/" class="pure-menu-link">Sair</a></li>
+                        {% else %}
+                            <li class="pure-menu-item"><a href="{% url 'entrar:login' %}" class="pure-menu-link">Entrar</a></li>
+                        {% endif %}
+                    </ul>
+                </div>
+            <style>
+                #menu{width: 11%;}
+            </style>
+            </div>
+            <div id="main">
+                <div class="header">
+                    <nav>
+                        <ul>
+                            <h1><a href="{% url 'home:index' %}">LsoaresA</a></h1>
+                            <li><a href="{% url 'home:index' %}">Início</a></li>
+                            <li><a href="">Notícias</a></li>
+                            <li><a href="">Contato</a></li>
+                            <li><a href="">Sobre</a></li>
+                        </ul>
+                    </nav>
+                    <style>
+                        .header h1{padding-right: 5px;}
+                        .header h1 a{color: #BEBEBE;}
+                        .header h1 a:link{text-decoration: none;}
+                        .header nav ul li{list-style: none; display: inline; margin: auto; padding: 10px;}
+                        .header nav ul li a{color: #1E90FF;}
+                        .header a{text-decoration: none;}
+                        .header a:hover{text-decoration: underline;}
+                    </style>
+                </div>
+                <div class="content">
+                    {% block content %}
+                    {% endblock %}
+                </div>
+            </div>
+        </div>
+            <script src="{% static 'js/ui.js' %}"></script>
+        <style>
+            body{font-family: 'Ubuntu', sans-serif;}
+            .content{font-family: 'Source Sans Pro', sans-serif;}
+        </style>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block content %}
+	<h2>Cadastro de Usuário</h2>
+	<form action="{% url 'cadastro:cadastro' %}" class="pure-form pure-form-aligned" method="POST">
+		{% csrf_token %}
+		<label>First Name: </label>
+		{{ form.first_name }}
+		<p>
+		<label>Last Name: </label>
+		{{ form.last_name }}
+		<p>
+		<label>Email Address: </label>
+		{{ form.email }}
+		<p>
+		<label>Username: </label>
+		{{ form.username }}
+		<p>
+		<label>Password: </label>
+		{{ form.password }}
+		<p>
+		<button class="pure-button pure-button-primary" type="submit">Enviar</button>
+		<style>
+			.pure-form.pure-form-aligned{width: 200px; padding-left: 330px;}
+			.pure-form.pure-form-aligned button{width: 195px;}
+			.pure-button.pure-button-primary{width: 195px;}
+			h2{padding-left: 295px; font-size: 30px;}
+		</style>
+	</form>
+{% endblock content %}
