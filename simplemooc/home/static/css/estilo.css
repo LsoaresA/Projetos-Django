@@ -1,0 +1,32 @@
+.header-principal{
+	width: 60%;
+}
+.header-principal h1 a{
+	color: #228B22;
+	margin: auto;
+	float: left;
+	font-size: 30px;
+	text-decoration: none;
+}
+/*.header-principal h1 a:hover{
+	text-decoration: underline;
+}*/
+.header-principal img{
+	width: 50px;
+	margin: auto;
+	padding: auto;
+}
+.header-principal ul li{
+	display: inline-block;
+	margin: 0px 0px 60px 30px;
+	float: left;
+	margin-top: -60px;
+}
+.header-principal ul li a{
+	color: #EE7600;
+	text-decoration: none;
+	font-size: 18px;
+}
+.header-principal ul li a:hover{
+	text-decoration: underline;
+}
