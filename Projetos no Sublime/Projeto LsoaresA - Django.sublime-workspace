@@ -1,0 +1,935 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"name",
+				"namespace"
+			],
+			[
+				"de",
+				"detalhe_post"
+			],
+			[
+				"adm",
+				"AdminCategoria"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"login",
+				"do_login"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"mode",
+				"ModelForm"
+			],
+			[
+				"fi",
+				"first_name"
+			],
+			[
+				"M",
+				"ModelForm"
+			],
+			[
+				"do_lo",
+				"do_logout"
+			],
+			[
+				"mari",
+				"margin"
+			],
+			[
+				"text-d",
+				"text-indent"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"url",
+				"url_redirect"
+			],
+			[
+				"lsoa",
+				"lsoaresa-menu-link"
+			],
+			[
+				"lsoares",
+				"lsoaresa-menu-item"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"ver",
+				"verbose_name_plural"
+			],
+			[
+				"Ca",
+				"Categorias"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"lis",
+				"list-style-type"
+			],
+			[
+				"list",
+				"list_filter"
+			],
+			[
+				"AutS",
+				"AutoStatus"
+			],
+			[
+				"Admin",
+				"AdminStatus"
+			],
+			[
+				"list_",
+				"list_display"
+			],
+			[
+				"A",
+				"AdminPost"
+			],
+			[
+				"Ad",
+				"AdminCategoria"
+			],
+			[
+				"Post",
+				"PostAdmin"
+			],
+			[
+				"Ma",
+				"modelsManager"
+			],
+			[
+				"lista",
+				"lista_itens"
+			],
+			[
+				"res",
+				"request"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"ar",
+				"artigo04"
+			],
+			[
+				"ari",
+				"artigo03"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"Desta",
+				"Destaque01"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"i",
+				"inline-grid"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"head",
+				"header\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "LsoaresA/home/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 4612,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "LsoaresA/home/templates/index.html",
+			"settings":
+			{
+				"buffer_size": 62,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "LsoaresA/cadastro/templates/cadastro.html",
+			"settings":
+			{
+				"buffer_size": 830,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "LsoaresA/entrar/templates/login.html",
+			"settings":
+			{
+				"buffer_size": 1041,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "LsoaresA/cadastro/forms.py",
+			"settings":
+			{
+				"buffer_size": 1117,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "LsoaresA/home/views.py",
+			"settings":
+			{
+				"buffer_size": 277,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "LsoaresA/cadastro/views.py",
+			"settings":
+			{
+				"buffer_size": 329,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "LsoaresA/entrar/views.py",
+			"settings":
+			{
+				"buffer_size": 497,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "LsoaresA/LsoaresA/urls.py",
+			"settings":
+			{
+				"buffer_size": 300,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "LsoaresA/home/urls.py",
+			"settings":
+			{
+				"buffer_size": 261,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "LsoaresA/cadastro/urls.py",
+			"settings":
+			{
+				"buffer_size": 217,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "LsoaresA/entrar/urls.py",
+			"settings":
+			{
+				"buffer_size": 256,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "LsoaresA/LsoaresA/settings.py",
+			"settings":
+			{
+				"buffer_size": 2862,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Projetos",
+		"/C/Projetos/LsoaresA",
+		"/C/Projetos/LsoaresA/cadastro",
+		"/C/Projetos/LsoaresA/cadastro/templates",
+		"/C/Projetos/LsoaresA/entrar",
+		"/C/Projetos/LsoaresA/entrar/templates",
+		"/C/Projetos/LsoaresA/home",
+		"/C/Projetos/LsoaresA/home/templates",
+		"/C/Projetos/LsoaresA/LsoaresA"
+	],
+	"file_history":
+	[
+		"/C/Projetos/LsoaresA/cadastro/templates/login.html",
+		"/C/Projetos/LsoaresA/cadastro/urls.py",
+		"/C/Projetos/LsoaresA/home/urls.py",
+		"/C/Projetos/LsoaresA/LsoaresA/urls.py",
+		"/C/Projetos/.git/rebase-merge/git-rebase-todo",
+		"/C/Projetos/.git/COMMIT_EDITMSG",
+		"/C/Projetos/LsoaresA/LsoaresA/settings.py",
+		"/C/Projetos/Website/manage.py",
+		"/C/Projetos/Website/Website/settings.py",
+		"/C/Projetos/Website/principal/admin.py",
+		"/C/Projetos/Website/cadastro/forms.py",
+		"/C/Projetos/Website/principal/views.py",
+		"/C/Projetos/Website/cadastro/views.py",
+		"/C/Projetos/Website/post/urls.py",
+		"/C/Projetos/Website/cadastro/urls.py",
+		"/C/Projetos/Website/principal/urls.py",
+		"/C/Projetos/Website/Website/urls.py",
+		"/C/Projetos/Website/post/admin.py",
+		"/C/Projetos/Website/post/models.py",
+		"/C/Projetos/Website/principal/templates/post.html",
+		"/C/Projetos/Website/principal/templates/noticias.html",
+		"/C/Projetos/Website/principal/templates/base.html",
+		"/C/Projetos/Website/principal/templates/index.html",
+		"/C/Projetos/Website/post/views.py",
+		"/C/Projetos/Website/principal/templates/entrar.html",
+		"/C/Projetos/Website/principal/templates/cadastro.html",
+		"/C/estudo/Desenvolvimento/Site/web/templates/post.html",
+		"/C/Users/LsoaresA/Desktop/lucas.html",
+		"/C/Projetos/Website/principal/models.py",
+		"/C/Projetos/Website/cadastro/models.py",
+		"/L/Aulas/estoque/produto/admin.py",
+		"/C/Projetos/Website/principal/static/css/creative.css",
+		"/C/estudo/Desenvolvimento/Site/Site/urls.py",
+		"/C/estudo/Desenvolvimento/Site/web/views.py",
+		"/C/estudo/Desenvolvimento/Site/web/static/css/style.css",
+		"/C/estudo/Desenvolvimento/Site/web/templates/noticias.html",
+		"/C/estudo/Desenvolvimento/Site/web/templates/teste.html",
+		"/C/estudo/Desenvolvimento/Site/web/templates/cadastro.html",
+		"/C/estudo/Desenvolvimento/Site/web/templates/index.html",
+		"/C/estudo/Desenvolvimento/Site/web/templates/base.html",
+		"/C/Apache24/htdocs/mysite/static/index.html",
+		"/C/estudo/Desenvolvimento/Site/web/models.py",
+		"/C/estudo/Desenvolvimento/Site/web/admin.py",
+		"/C/estudo/Desenvolvimento/Site/Site/settings.py",
+		"/C/Users/LsoaresA/Desktop/PURECSS/index.html",
+		"/C/xampp/htdocs/index.php",
+		"/C/Apache24/htdocs/mysite/core/templates/index.html",
+		"/C/xampp/htdocs/index.py",
+		"/C/estudo/Desenvolvimento/PHP/htdocs/index.php",
+		"/C/estudo/Desenvolvimento/Site/Django/core/models.py",
+		"/C/estudo/Desenvolvimento/Site/Django/Django/settings.py",
+		"/C/Users/LsoaresA/Downloads/Compressed/atpcsistemas/atpcsistemas/templates/login.html",
+		"/C/Users/LsoaresA/Downloads/Compressed/atpcsistemas/atpcsistemas/templates/cadastrar.html",
+		"/C/Users/LsoaresA/Downloads/Compressed/atpcsistemas/atpcsistemas/views.py",
+		"/C/Users/LsoaresA/Downloads/Compressed/atpcsistemas/templates/meusite/templates/read.html",
+		"/C/estudo/Desenvolvimento/Site/Django/Django/urls.py",
+		"/C/estudo/Desenvolvimento/Site/Django/core/templates/noticias/artigo04.html",
+		"/C/estudo/Desenvolvimento/Site/Django/core/templates/noticias/artigo03.html",
+		"/C/estudo/Desenvolvimento/Site/Django/core/templates/noticias/artigo02.html",
+		"/C/estudo/Desenvolvimento/Site/Django/core/templates/noticias/noticias.html",
+		"/C/estudo/Desenvolvimento/Site/Django/core/templates/index.html",
+		"/C/estudo/Desenvolvimento/Site/Django/core/static/css/style.css",
+		"/C/estudo/Desenvolvimento/Site/Django/core/views.py",
+		"/C/estudo/Desenvolvimento/Site/Django/core/templates/noticias/artigo01.html",
+		"/C/Users/LsoaresA/Downloads/Compressed/atpcsistemas/atpcsistemas/settings.py",
+		"/C/estudo/Desenvolvimento/Site/Django/core/templates/noticias.html",
+		"/C/estudo/Desenvolvimento/Site/Site Final/noticias.html",
+		"/C/estudo/Desenvolvimento/Site/Django/core/static/css/normalize.css",
+		"/C/estudo/Desenvolvimento/Site/Django_Html/Django_Html/urls.py",
+		"/C/estudo/Desenvolvimento/Site/Django_Html/core/views.py",
+		"/C/estudo/Desenvolvimento/Site/Django_Html/core/static/css/style.css",
+		"/C/estudo/Desenvolvimento/Site/Django_Html/core/templates/index.html",
+		"/C/estudo/Desenvolvimento/Site/Django_Html/core/templates/css/style.css",
+		"/C/estudo/Desenvolvimento/Site/Django_Html/Django_Html/settings.py",
+		"/C/estudo/Desenvolvimento/Site/Django/core/templates/index2.html",
+		"/C/estudo/Desenvolvimento/Site/Site Final/css/style.css",
+		"/C/estudo/Desenvolvimento/Site/Site Final/index.html",
+		"/C/estudo/Desenvolvimento/Site/HTML/noticias.html",
+		"/C/estudo/Desenvolvimento/Site/Django/core/templates/home.html",
+		"/C/estudo/Desenvolvimento/Site/Django/core/templates/jogos.html",
+		"/C/estudo/Desenvolvimento/Site/Django/core/templates/e-sports.html",
+		"/D/wamp64/mod_wsgi-4.5.20/setup.py",
+		"/D/wamp64/mod_wsgi.whl",
+		"/C/Users/LsoaresA/Desktop/estoque/estoque/settings.py",
+		"/C/estudo/Desenvolvimento/Site/HTML/index.html",
+		"/C/estudo/Desenvolvimento/Site/Django/core/templates/base.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "LsoaresA/home/templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4612,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "LsoaresA/home/templates/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 62,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "LsoaresA/cadastro/templates/cadastro.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 830,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "LsoaresA/entrar/templates/login.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1041,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								693,
+								693
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "LsoaresA/cadastro/forms.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "LsoaresA/home/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 277,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "LsoaresA/cadastro/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 329,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "LsoaresA/entrar/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 497,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "LsoaresA/LsoaresA/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 300,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "LsoaresA/home/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 261,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "LsoaresA/cadastro/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 217,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "LsoaresA/entrar/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "LsoaresA/LsoaresA/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2862,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Projeto LsoaresA - Django.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"principal\\templates\\index.html"
+			],
+			[
+				"url",
+				"principal\\urls.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 246.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
